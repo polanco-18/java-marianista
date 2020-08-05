@@ -1,0 +1,16 @@
+{
+    "elements": {
+        "img": {
+            "attributes": {
+                "src": {},
+                "width": {}
+            }
+        },
+        "li": {}
+    },
+    "attributes": {
+        "integrity": {
+            "context": "link"
+        }
+    }
+}
