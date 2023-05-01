@@ -15,38 +15,38 @@
         </div>
         <div class="form-row">
             <div class="form-group col-md-4">
-                <label for="Nombre" class="col control-label"><i class="fas fa-address-card"></i> Nombres </label>
+                <label class="col control-label"><i class="fas fa-address-card"></i> Nombres </label>
                 <input type="text" id="txt1" placeholder="Ingrese Nombre" class="form-control" required="required">
             </div>   
             <div class="form-group col-md-3">
-                <label for="Nombre" class="col control-label"><i class="fas fa-address-card"></i> Apellido Paterno </label>
+                <label class="col control-label"><i class="fas fa-address-card"></i> Apellido Paterno </label>
                 <input type="text" id="txt2" placeholder="Ingrese Apellido Paterno" class="form-control" required="required">
             </div>   
             <div class="form-group col-md-3">
-                <label for="Nombre" class="col control-label"><i class="fas fa-address-card"></i> Apellido Materno </label>
+                <label class="col control-label"><i class="fas fa-address-card"></i> Apellido Materno </label>
                 <input type="text" id="txt3" placeholder="Ingrese Apellido Materno" class="form-control" required="required">
             </div>   
             <div class="form-group col-md-2">
-                <label for="Nombre" class="col control-label"><i class="fas fa-image"></i> Imagen</label>
+                <label class="col control-label"><i class="fas fa-image"></i> Imagen</label>
                 <button type="button" class="btn-block btn btn-outline-primary" data-toggle="modal" data-target="#exampleModal"><i class="fas fa-search"></i> Subir Imagaen</button>
             </div>                
         </div>
         <hr>
         <div class="form-row">            
             <div class="form-group col-md-4">
-                <label for="Nombre" class="col control-label"><i class="fas fa-envelope"></i> Correo </label>
+                <label class="col control-label"><i class="fas fa-envelope"></i> Correo </label>
                 <input type="email" id="txt4" placeholder="Ingrese Correo" class="form-control">
             </div>
             <div class="form-group col-md-2">
-                <label for="Nombre" class="col control-label"><i class="fas fa-calendar-alt"></i> F. nacimiento</label>
+                <label class="col control-label"><i class="fas fa-calendar-alt"></i> F. nacimiento</label>
                 <input type="date" id="txt5" placeholder="Ingrese F. nacimiento" class="form-control"  required="required">
             </div>  
             <div class="form-group col-md-2">
-                <label for="Nombre" class="col control-label"><i class="fas fa-id-badge"></i> Dni </label>
+                <label class="col control-label"><i class="fas fa-id-badge"></i> Dni </label>
                 <input type="number" maxlength="8"  id="txt6" placeholder="Ingrese DNI"  class="form-control"  oninput="if(this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"  required="required">
             </div>
             <div class="form-group col-md-2">
-                <label for="codigo" class="col form-label"><i class="fas fa-venus"></i> Sexo </label>
+                <label class="col form-label"><i class="fas fa-venus"></i> Sexo </label>
                 <select class="form-control" id="txt7">
                     <option>Seleccione Sexo</option>
                     <option value="1">Hombre</option>
@@ -54,14 +54,14 @@
                 </select>
             </div> 
             <div class="form-group col-md-2">
-                <label for="Nombre" class="col control-label"><i class="fas fa-phone"></i> Telefono</label>
+                <label class="col control-label"><i class="fas fa-phone"></i> Telefono</label>
                 <input type="number" id="txt8" maxlength="9"  placeholder="Ingrese Telefono"  class="form-control"  oninput="if(this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" required="required">
             </div>  
         </div>
         <hr>
         <div class="form-row">
             <div class="form-group col-md-2">
-                <label for="codigo" class="col form-label"><i class="fas fa-chevron-circle-right"></i> Estado Civil</label>
+                <label class="col form-label"><i class="fas fa-chevron-circle-right"></i> Estado Civil</label>
                 <select  id="txt9" class="form-control">
                     <option class="text-primary">Seleccione Estado Civil</option>
                     <option value="Soltero" class="text-primary">Soltero</option>
@@ -70,17 +70,17 @@
                 </select>
             </div>  
             <div class="form-group col-md-4">
-                <label for="Nombre" class="col control-label"><i class="fas fa-home"></i> Direccion </label>
+                <label class="col control-label"><i class="fas fa-home"></i> Direccion </label>
                 <input type="text" id="txt10"  placeholder="Ingrese Direccion"  class="form-control"  required="required">
             </div> 
             <div class="form-group col-md-2">
-                <label for="codigo" class="col form-label"><i class="fas fa-home"></i> Distrito</label>
+                <label class="col form-label"><i class="fas fa-home"></i> Distrito</label>
                 <select class="form-control" id="txt11">
                     <option>Seleccione Distrito</option>
-                    <option value="Ancón">Ancón</option>
+                    <option value="Ancï¿½n">Ancï¿½n</option>
                     <option value="Ate">Ate</option>
                     <option value="Barranco">Barranco</option>
-                    <option value="Breña">Breña</option>
+                    <option value="Breï¿½a">Breï¿½a</option>
                     <option value="Carabayllo">Carabayllo</option>
                     <option value="Chaclacayo">Chaclacayo</option>
                     <option value="Chorrillos">Chorrillos</option>
@@ -88,14 +88,14 @@
                     <option value="Comas">Comas</option>
                     <option value="El Agustino">El Agustino</option>
                     <option value="Independencia">Independencia</option>
-                    <option value="Jesús María">Jesús María</option>
+                    <option value="Jesï¿½s Marï¿½a">Jesï¿½s Marï¿½a</option>
                     <option value="La Molina">La Molina</option>
                     <option value="La Victoria">La Victoria</option>
                     <option value="Lima">Lima</option>
                     <option value="Lince">Lince</option>
                     <option value="Los Olivos">Los Olivos</option>
                     <option value="Lurigancho">Lurigancho</option>
-                    <option value="Lurín">Lurín</option>
+                    <option value="Lurï¿½n">Lurï¿½n</option>
                     <option value="Magdalena del Mar">Magdalena del Mar</option>
                     <option value="Miraflores">Miraflores</option>
                     <option value="Pachacamac">Pachacamac</option>
@@ -104,29 +104,29 @@
                     <option value="Puente Piedra">Puente Piedra</option>
                     <option value="Punta Hermosa">Punta Hermosa</option>
                     <option value="Punta Negra">Punta Negra</option>
-                    <option value="Rímac">Rímac</option>
+                    <option value="Rï¿½mac">Rï¿½mac</option>
                     <option value="San Borja">San Borja</option>
                     <option value="San Isidro">San Isidro</option>
                     <option value="San Juan de Lurigancho">San Juan de Lurigancho</option>
                     <option value="San Juan de Miraflores">San Juan de Miraflores</option>
                     <option value="San Luis">San Luis</option>
-                    <option value="San Martín de Porres">San Martín de Porres</option>
+                    <option value="San Martï¿½n de Porres">San Martï¿½n de Porres</option>
                     <option value="San Miguel">San Miguel</option>
                     <option value="Santa Anita">Santa Anita</option>
-                    <option value="Santa María del Mar">Santa María del Mar</option>
+                    <option value="Santa Marï¿½a del Mar">Santa Marï¿½a del Mar</option>
                     <option value="Santa Rosa">Santa Rosa</option>
                     <option value="Santiago de Surco">Santiago de Surco</option>
                     <option value="Surquillo">Surquillo</option>
                     <option value="Villa El Salvador">Villa El Salvador</option>
-                    <option value="Villa María del Triunfo">Villa María del Triunfo</option>
+                    <option value="Villa Marï¿½a del Triunfo">Villa Marï¿½a del Triunfo</option>
                 </select>
             </div>   
             <div class="form-group col-md-2">
-                <label for="Nombre" class="col control-label"><i class="fas fa-home"></i> Provincia</label>
+                <label class="col control-label"><i class="fas fa-home"></i> Provincia</label>
                 <input type="text" id="txt12" placeholder="Ingrese Provincia" class="form-control" value="Lima" required="required">
             </div>   
             <div class="form-group col-md-2">
-                <label for="Nombre" class="col control-label"><i class="fas fa-home"></i> Departamento</label>
+                <label class="col control-label"><i class="fas fa-home"></i> Departamento</label>
                 <input type="text" id="txt13" placeholder="Ingrese Departamento"class="form-control" value="Lima" required="required">
             </div>
         </div>
@@ -136,7 +136,7 @@
         </div>
         <div class="row">
             <div class="form-group col-md-6">
-                <label for="codigo" class="col form-label"><i class="fas fa-user-tag"></i> Tipo de Cuenta </label>
+                <label class="col form-label"><i class="fas fa-user-tag"></i> Tipo de Cuenta </label>
                 <select class="form-control" id="txt14">
                     <option value="" class="text-primary">Seleccione tipo de Cuenta</option>
                     <option value="1" class="text-danger">Director</option>
